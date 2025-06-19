@@ -1,5 +1,6 @@
-# Meal Planning Optimization Project
-This project aims to generate optimal meal plans based on cost, nutritional value, or both using optimization techniques. 
+# Meal Planning Optimisation Project
+This project aims to generate optimal meal plans that balance cost and nutritional value, or both, using optimisation techniques. 
+
 It includes:
-Single-objective optimization: minimizing cost.
-Multi-objective optimization: balancing cost (Minimizing Cost) and nutrition (e.g., Maximizing protein).
+Single-objective optimisation: minimising cost.
+Multi-objective optimisation: balancing cost (minimising cost) and nutrition (e.g., maximizing protein).
