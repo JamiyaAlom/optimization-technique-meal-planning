@@ -112,8 +112,17 @@ The project implements and compares several optimization algorithms, analyzes th
 
 Each notebook presents:
 - The optimal meal plans for the given objectives and constraints.
+**Example**
+
+![](images/meal_plans.png)
+
 - Comparative analysis of cost, nutritional value, and trade-offs.
+![](images/SOO_GA.png)
+![](images/SOO_GA_Progress.png)
+![](images/best_avg_protein.png)
 - Visualizations of the Pareto front (for multi-objective optimization).
+![](images/proteins.png)
+![](images/cost_protein.png)
 
 ---
 
