@@ -1,10 +1,11 @@
-# Optimization Technique Meal Planning
+# Optimization Techniques on Meal Planning
 
 This project aims to generate optimal meal plans that balance cost and nutritional value, or both, using optimisation techniques. The generated meal plans will be both cost-effective and nutritionally balanced, leveraging both single-objective and multi-objective optimization strategies.
 
 ## What It Does
 
 The notebooks in this repository formulate the meal planning problem as an optimization task with the following objectives:
+
 **Single Objective Optimization:** Single Objective Optimization (SOO) aims to **optimize one goal** — either minimizing or maximizing a single objective function — while satisfying various constraints.
 
 **Example:**
@@ -56,12 +57,12 @@ The project implements and compares several optimization algorithms, analyzes th
 - **Characteristics:** Flexible, can handle non-linear constraints, suitable for more complex or non-convex problems.
 
 ### 3. Weight Sum Method with Genetic Algorithm (Multi-Objective)
-- **Goal:** Minimize cost and maximize nutrients by combining objectives into a single weighted sum.
+- **Goal:** Minimize cost and maximize proteins by combining objectives into a single weighted sum.
 - **Method:** The two objectives are combined into one by assigning user-defined weights, and a genetic algorithm is used to optimize this aggregate objective.
 - **Characteristics:** Allows flexible trade-offs between objectives, but the outcome depends on the choice of weights.
 
 ### 4. NSGA-II (Non-dominated Sorting Genetic Algorithm II) (Multi-Objective)
-- **Goal:** Simultaneously minimize cost and maximize nutrients, producing a set of Pareto-optimal solutions.
+- **Goal:** Simultaneously minimize cost and maximize proteins, producing a set of Pareto-optimal solutions.
 - **Method:** NSGA-II is a state-of-the-art multi-objective evolutionary algorithm that finds a diverse set of trade-off solutions (Pareto front) without requiring weight selection.
 - **Characteristics:** Provides a range of optimal solutions showing different trade-offs, well-suited for problems with conflicting objectives.
 
@@ -113,7 +114,6 @@ Each notebook presents:
 - The optimal meal plans for the given objectives and constraints.
 - Comparative analysis of cost, nutritional value, and trade-offs.
 - Visualizations of the Pareto front (for multi-objective optimization).
-- Discussion of practical implications and recommendations.
 
 ---
 
